@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import '../css/Posts.css'
 
 const request = require('request');
-const Markdown = require('markdown-it')
 const urlencode = require('urlencode');
-const markdown = new Markdown();
+const markdown = require('markdown-it')({html:true, xhtmlOut:true});
 
 function replaceAll(str, searchStr, replaceStr) {
     return str.split(searchStr).join(replaceStr);

@@ -60,7 +60,7 @@ class App extends Component {
                 try {
                     get = body.split('../img/')[1].split(')')[0];
                 } catch(e) {
-                    get = 'BB04A8E1-8E2A-49D1-B68A-2E73D675FC7B.jpeg'
+                    get = 'NoImageFound.png'
                 }
                 resolve(`http://localhost:4000/img/${get}`);
             });

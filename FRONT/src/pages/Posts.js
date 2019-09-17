@@ -3,9 +3,8 @@ import '../css/Posts.css'
 import '../css/github-markdown.css'
 
 const request = require('request');
-const Markdown = require('markdown-it')
 const urlencode = require('urlencode');
-const markdown = new Markdown();
+const markdown = require('markdown-it')({html:true, xhtmlOut:true});
 
 function replaceAll(str, searchStr, replaceStr) {
     return str.split(searchStr).join(replaceStr);
@@ -149,7 +148,7 @@ class App extends Component {
 
                 {/* MD -> HTML rendering */}
                 <article className = "markdown-body">
-                <div dangerouslySetInnerHTML = {{__html: replaceAll(markdown.render(inside), 'img src="..', 'img src="http://rhea31.duckdns.org:4000')}}/>
+                <div dangerouslySetInnerHTML = {{__html: replaceAll(markdown.render(inside), 'img src="..', 'img src="http://localhost:4000')}}/>
                 </article>
             </div>
         );

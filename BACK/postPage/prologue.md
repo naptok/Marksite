@@ -1,12 +1,16 @@
 # Prologue
 
+<div style="text-align: center;">
+
 ![Prologue Image](../img/A34E00A9-15F0-4DB3-9182-13C69E4E7EB9.png)
+
+</div>
 
 > 반도에 흔한 잉여 프로그래머가 만든 초소규모 게임 제작 팀  
 
-## Welcome FUMESOFT  
+## Welcome FUMESOFT
 
-반갑습니다. 👋  
+`반갑습니다`. 👋  
 홀로 게임 개발을 하고 있는 Fume 입니다.  
 
 본 사이트에서는 Fumesoft 에서 개발하고 있는, 개발한, 새롭게 공부하고 있는, 연구하고 있는 것들을 포스팅하고 있습니다.  

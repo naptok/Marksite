@@ -2,15 +2,9 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../css/Menu.css'
 
-const request = require('request');
-
 let prevScrollpos = 0;
 
 class App extends Component {
-    constructor(props) {
-        super(props)
-    }
-
     state = {
         a:''
     }
