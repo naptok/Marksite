@@ -1,0 +1,1 @@
+nodemon --watch source/ source/main.js
